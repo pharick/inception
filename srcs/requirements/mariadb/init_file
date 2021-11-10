@@ -1,0 +1,12 @@
+CREATE DATABASE wordpress;
+CREATE USER 'wordpress'@'%' IDENTIFIED BY 'wordpress_pass';
+GRANT ALL PRIVILEGES ON wordpress.* TO 'wordpress'@'%' WITH GRANT OPTION;
+
+CREATE DATABASE short_urls;
+CREATE USER 'short_urls'@'%' IDENTIFIED BY 'short_urls_pass';
+GRANT ALL PRIVILEGES ON short_urls.* TO 'short_urls'@'%' WITH GRANT OPTION;
+
+CREATE USER 'root'@'%' IDENTIFIED BY 'root_pass';
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' WITH GRANT OPTION;
+
+FLUSH PRIVILEGES;
