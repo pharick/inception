@@ -1,14 +1,14 @@
 # inception
 
-**Проект сборки и запуска нескольких контейнеров, объединенных при помощи docker-compose. Проект, выполненный в Школе 21**
+**A project for building and running multiple containers combined using docker-compose. A project completed at Ecole42.**
 
 - MariaDB, adminer
 - nginx
 - php/Wordpress
 - redis
 - ftp
-- python, gunicorn, приложение на flask
+- python, gunicorn, Flask application
 
-## Сборка
+## Build
 
 make
